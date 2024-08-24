@@ -1,0 +1,739 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+header {
+  width: 100%;
+  box-shadow: 0px 1px 0px 0px #ccc;
+}
+.headerMain {
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.headerLeft {
+  flex-basis: 14%;
+}
+.headerLeft > a > img {
+  width: 15rem;
+  padding: 20px 0px;
+}
+.headerRight {
+  flex-basis: 76%;
+}
+.headerRight nav ul {
+  display: flex;
+  justify-content: end;
+  gap: 8%;
+  padding-right: 40px;
+}
+.headerRight > nav > ul > li {
+  padding: 30px 0px;
+}
+.headerRight > nav > ul > li > .primaryMenu {
+  display: flex;
+  gap: 8%;
+  color: red;
+}
+.headerRight > nav > ul > li > .primaryMenu > span,
+.headerRight > nav > ul > li > .primaryMenu > i {
+  color: #5c1b4b;
+}
+.headerRight > nav > ul > li > .subMenu {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-color: red;
+  left: 0%;
+}
+.searchSection {
+  width: 100%;
+}
+.searchSectionMid {
+  width: 1320px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.searchSectionImage {
+  display: flex;
+  gap: 1%;
+}
+.searchImageLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 65%;
+  background: url(./images/india-holidays.jpg) no-repeat center;
+  background-size: cover;
+  height: 470px;
+  border-radius: 15px;
+}
+.searchImageLeft form {
+  width: 450px;
+}
+.searchImageLeft form h1 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.searchImageLeft form input {
+  padding: 10px 8px;
+  border: none;
+  outline: none;
+}
+.searchImageLeft form button {
+  padding: 9px 35px;
+  font-size: 15px;
+  background-color: #5c1b4b;
+  border: none;
+}
+.searchImageRight {
+  position: relative;
+  flex-basis: 32%;
+  background: url(./images/india-nepal-bhutan-tour.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.searchImageRightContent {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: absolute;
+  top: 78%;
+  left: 5%;
+}
+.searchImageRightContent button {
+  width: 50%;
+  font-size: 15px;
+  border: none;
+  border-radius: 25px;
+}
+.searchImageRightContent h2 a {
+  font-size: 25px;
+  color: white;
+}
+.searchImageRightContent p {
+  font-size: 15px;
+  color: white;
+}
+.searchSectionDesc {
+  padding-top: 20px;
+  display: flex;
+  gap: 2%;
+}
+.experenceDesc {
+  display: flex;
+  flex-basis: 31%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+.experienceLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+.experienceLogo img {
+  width: 70%;
+}
+.experienceData h4 {
+  margin: 20px 0px;
+}
+.experienceData p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #00000080;
+}
+
+/* Indian Tours */
+
+.indianTours {
+  width: 100%;
+}
+.indianToursMid {
+  width: 1320px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.indianToursMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.indianTourImages {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.rajasthanIndianTour {
+  flex-basis: 22%;
+  position: relative;
+  background: url('./images/rajasthan-tour-packages.jpg');
+  height: 440px;
+  border-radius: 15px;
+}
+.restIndiaTour {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  flex-basis: 75%;
+  border-radius: 15px;
+}
+.keralaIndianTour {
+  background: url('./images/kerala-tour-packages.jpg') no-repeat center;
+  background-size: cover;
+}
+.sikkimIndianTour {
+  background: url('./images/sikkim-tour-packages.jpg') no-repeat;
+}
+.varansiIndianTour {
+  background: url('./images/varanasi-tour-packages.jpg') no-repeat center;
+  background-size: cover;
+}
+.mpIndianTour {
+  background: url('./images/khajuraho-tour-packages.jpg') no-repeat center;
+  background-size: cover;
+}
+.jnkIndianTour {
+  background: url('./images/kashmir-tour-packages.jpg') no-repeat center;
+  background-size: cover;
+}
+.karnatakaIndianTour {
+  background: url('./images/karnataka-tour-packages.jpg') no-repeat;
+  background-size: cover;
+}
+.restIndiaTourCommon {
+  position: relative;
+  flex-basis: 32%;
+  height: 212 px;
+  border-radius: 15px;
+}
+
+/* International Tours */
+.internationalTours {
+  width: 100%;
+}
+.internationalToursMid {
+  width: 1320px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.internationalToursMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.outerTours {
+  display: flex;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+.bharatTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/india-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.nepalTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('/images/nepal-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.bhutanTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/bhutan-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.maldivesTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/maldives-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.sriLankaTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/sri-lanka-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.thailandTour {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/thailand-tour-packages.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Travel Theme */
+.travelTheme {
+  width: 100%;
+  background-color: #faf9f9;
+}
+.travelThemeMid {
+  width: 1320px;
+  margin: auto;
+  padding-top: 40px;
+}
+.travelThemeMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+.themePackage {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+}
+.wildlifePackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/wildlife-safari-tour-packages.jpg') no-repeat center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.inDepthPackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/in-depth-culture-tour-packages.jpg') no-repeat
+    center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.religiousPackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/religious-sites-tour-packages.jpg') no-repeat center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.romanticPackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/romantic-getaway-tour-packages.jpg') no-repeat
+    center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.fairsPackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/fairs-and-festivals-tour-packages.jpg') no-repeat
+    center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.adventurePackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/adventure-tour-packages.jpg') no-repeat center;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+/* Top Picks */
+.topPicks {
+  width: 100%;
+  background-color: #efeeee;
+}
+.topPicksMid {
+  width: 1320px;
+  margin: auto;
+  padding-top: 40px;
+}
+.topPicksMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+.topPicksTours {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+  gap: 2%;
+}
+.templeTour {
+  width: 23.5%;
+  border-radius: 15px;
+  height: 350px;
+  background-color: white;
+}
+.templeImage {
+  height: 50%;
+  background: url('./images/India-temples-tour.jpg') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.southImage {
+  height: 50%;
+  background: url('./images/south-india-tour.jpg') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tigerImage {
+  height: 50%;
+  background: url('./images/india-tiger-tour.jpg') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.fortImage {
+  height: 50%;
+  background: url('./images/fort-tour-packages.jpg') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tourDesc {
+  height: 16%;
+  margin: 5%;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.viewDetails {
+  height: 24%;
+  display: flex;
+  margin: 0px 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewDetails button {
+  background-color: #5c1b4b;
+  color: white;
+  font-size: 17px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Best Seller */
+
+.bestSeller {
+  width: 100%;
+}
+.bestSellerMid {
+  width: 1320px;
+  margin: auto;
+  padding-top: 40px;
+}
+.bestSellerMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+.bestSellerPackage {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+  position: relative;
+}
+.nepalTourPackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/nepal-tour-package.jpg') no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.templePackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/India-temples-tour.jpg') no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.ranthamborePackage {
+  flex-basis: 32%;
+  position: relative;
+  background: url('./images/ranthambore-national-park-tour-packages.jpg')
+    no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.bestSellerPackage .leftArrow .fa-circle-chevron-left {
+  font-size: 40px;
+  color: green;
+  position: absolute;
+  top: 50%;
+  right: 98%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.bestSellerPackage .rightArrow .fa-circle-chevron-right {
+  font-size: 40px;
+  color: green;
+  position: absolute;
+  top: 50%;
+  left: 98%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+/* Blog Posts */
+
+.topBlogs {
+  max-width: 100%;
+  background-color: #faf9f9;
+}
+.topBlogsMid {
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 40px;
+}
+.topBlogsMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+.topBlogsMid p {
+  padding: 10px 0px;
+}
+.topBlogsMid a {
+  text-decoration: underline;
+}
+.topBlogPosts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px;
+  gap: 2%;
+}
+.blogPosts {
+  flex-basis: 32%;
+  border-radius: 15px;
+  background-color: white;
+}
+.blogPosts img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.blogContent {
+  padding: 20px;
+}
+.blogContent h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+.blogContent p {
+  font-size: 15px;
+}
+
+/* FAQ's */
+
+.faq {
+  max-width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.faqMid {
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 40px;
+}
+.faqMid h2 {
+  font-weight: normal;
+  font-size: 36px;
+}
+.faqQuestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #8080804f;
+  padding: 20px;
+  margin-top: 10px;
+}
+.faqAnswer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #8080804f;
+  padding: 20px;
+  margin-top: 10px;
+}
+.faqQuestion h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.faqQuestion i {
+  font-size: 30px;
+  color: #00000082;
+}
+
+/* Subscriber */
+
+.subscribe {
+  max-width: 100%;
+}
+.subscribeMid {
+  max-width: 1320px;
+  margin: auto;
+  padding: 50px 0px;
+}
+.subscribeForm {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+.subscribeForm input {
+  width: 30rem;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.subscribeForm button {
+  background-color: #198753;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+.footer {
+  max-width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+.chechReview {
+  text-align: center;
+  padding: 20px 0px 35px 0px;
+  color: white;
+  font-size: 25px;
+  background-color: #cccdce;
+}
+.chechReview i {
+  color: #198753;
+}
+.footerMid {
+  max-width: 1320px;
+  margin: auto;
+}
+.footerMenu {
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+}
+.footerMenuContent {
+  flex-basis: 25%;
+}
+.footerMenuContent h2 {
+  padding: 20px 0px;
+  color: white;
+}
+.footerMenuContent ul li i {
+  color: white;
+  margin: 10px;
+}
+.footerMenuContent ul li {
+  color: white;
+}
+.lowerFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px 0px 70px;
+}
+.lowerFooterLeft ul,
+.lowerFooterRight ul {
+  display: flex;
+  gap: 1px;
+}
+.lowerFooterLeft ul li,
+.lowerFooterRight ul li {
+  color: white;
+}
+.lowerFooterRight ul li i {
+  padding-left: 15px;
+  color: white;
+}
+.copyRight {
+  color: white;
+}
+
+/* Chat Bot */
+.chatBot i {
+  position: fixed;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #881363;
+  color: white;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9;
+}
+
+/* Common */
+
+.label {
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: green;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.tourContent {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.tourContent h2 {
+  font-size: 26px;
+  text-transform: capitalize;
+  color: white;
+}
+.tourContent p {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: white;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: #00000068;
+  border-radius: 15px;
+}
