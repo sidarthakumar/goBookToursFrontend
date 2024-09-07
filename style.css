@@ -83,6 +83,9 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
+.searchInput {
+  display: flex;
+}
 .searchImageLeft form input {
   padding: 10px 8px;
   border: none;
